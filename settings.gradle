@@ -1,0 +1,3 @@
+rootProject.name = 'AracKiralama'
+include 'auth-service'
+
