@@ -5,6 +5,7 @@ ext{
             lombok: "1.18.30",
             openApi: "2.3.0",
             mapStruct: "1.5.5.Final",
+            jwt                     : '4.4.0'
 
     ]
 
@@ -17,7 +18,7 @@ ext{
             openApi:                        "org.springdoc:springdoc-openapi-starter-webmvc-ui:${versions.openApi}",
             mapStruct:                      "org.mapstruct:mapstruct:${versions.mapStruct}",
             mapStructProcessor:             "org.mapstruct:mapstruct-processor:${versions.mapStruct}",
-
+            jwt                                 : "com.auth0:java-jwt:${versions.jwt}"
 
 
     ]
